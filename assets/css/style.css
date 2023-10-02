@@ -1,13 +1,16 @@
+/*Reset some default styles to all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Set a background color for the entire page*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Style for the header of the page*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,19 @@ body {
     color: #ffffff;
 }
 
+/*Style for the h1 element inside the header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Style for the .seo class inside the h1*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*Style for the nav elements inside the header*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/*Style for unordered lists inside the header*/
+.header ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*Style for items inside unordered lists*/
+.header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Style for links on the page*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Style for paragraphs on the page*/
 p {
     font-size: 16px;
 }
 
+/*Style for a .hero section with background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*Style for elements that float left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Style for elements that float right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Style for content elements*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Style for benefits section*/
 .benefits { 
     margin-right: 20px;
     padding: 20px;
@@ -86,23 +101,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-type { /*changed*/
+/*Style for a benefit-type*/
+.benefit-type {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-h3 { /*changed*/
+/*Style for the h3 element inside a benefit-type*/
+.benefit-type h3 { /*changed*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-type img { /*changed*/
+/*Style for the images inside a benefit-type*/
+.benefit-type img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.blue-columns { /*changed*/
+/*Style for the blue-columns section*/
+.blue-columns {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,15 +130,18 @@ h3 { /*changed*/
     color: #ffffff;
 }
 
+/*Style for the images inside the blue-columns section*/
 .blue-columns img { /*changed*/
     max-height: 200px;
 }
 
-.header-text { /*changed*/
+/*Style for h2 elements inside the blue-columns section*/
+.blue-columns h2 { /*changed*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Style for the footer of the page*/
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ h3 { /*changed*/
     text-align: center;
 }
 
+/*Style for h2 elements inside the footer*/
 .footer h2 {
     font-size: 20px;
 }
