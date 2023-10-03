@@ -20,6 +20,9 @@ During this project, I primarily learned about web accessibility, semantic HTML,
 
 Navigate through the website using the navigation links to learn about Horiseon's services or scroll down the webpage to discover its services.
 
+![Website navigation links](assets/images/Screenshot%202023-10-03%20011554.png)
+![Website services upon scrolling down](assets/images/Screenshot%202023-10-03%20011615.png)
+
 ## Credits
 
 This website was originally created by Horiseon Social Solution Services, Inc and has been improved and optimized by Rodrigo Oliva (https://github.com/rodrigoaoliva).
