@@ -1,155 +1,155 @@
 /*Reset some default styles to all elements*/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    padding: 0; /*Removes default padding from the page*/
+    margin: 0; /*Removes default margin from the page*/
 }
 
 /*Set a background color for the entire page*/
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /*Sets a background color for the entire page*/
 }
 
 /*Style for the header of the page*/
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px; /*Adds padding around the header*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Defines font family for text in the header*/
+    background-color: #2a607c; /*Defines background color of the header*/
+    color: #ffffff; /*Defines the font color of text in the header*/
 }
 
 /*Style for the h1 element inside the header*/
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /*Makes h1 element in the header an inline block*/
+    font-size: 48px; /*Defines the font size of h1 elements in the header */
 }
 
 /*Style for the .seo class inside the h1*/
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /*Defines the font color of elements with the .seo class*/
 }
 
 /*Style for the nav elements inside the header*/
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 15px; /*Adds a top margin to the nav elements */
+    margin-right: 20px; /*Adds a right margin to the nav elements */
+    float: right; /*Shifts the nav elements to the right */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Defines the font family of the nav elements*/
+    font-size: 20px; /*Defines the font size of the nav elements */
 }
 
 /*Style for unordered lists inside the header*/
 .header ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove the default list bullet points in the header */
 }
 
 /*Style for items inside unordered lists*/
 .header ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /* Display list items as inline-block elements in the header*/
+    margin-left: 25px; /*Adds a left margin to list items in the header*/
 }
 
 /*Style for links on the page*/
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /*Sets the font color for links*/
+    text-decoration: none; /*Removes link underlines from the text*/
 }
 
 /*Style for paragraphs on the page*/
 p {
-    font-size: 16px;
+    font-size: 16px; /*Sets the font size for paragraphs*/
 }
 
 /*Style for a .hero section with background image*/
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /*Sets height for the hero section*/
+    width: 100%; /*Sets the width of hero section to 100%*/
+    margin-bottom: 25px; /*Adds a bottom margin to the hero section*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*Adds a background image to the hero section*/
+    background-size: cover; /* Scales the background image to cover the entire section */
+    background-position: center; /*Positions the background image in the center*/
 }
 
 /*Style for elements that float left*/
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* Floats elements to the left within their container */
+    margin-right: 25px; /* Adds a right margin for spacing*/
 }
 
 /*Style for elements that float right*/
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /* Floats elements to the right within their container */
+    margin-left: 25px; /* Adds a left margin for spacing */
 }
 
 /*Style for content elements*/
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 75%; /*Sets the width of the content section to 75% of its container*/
+    display: inline-block; /*Displays content as inline block elements*/
+    margin-left: 20px; /*Adds a left margin for spacing*/
 }
 
-/*Style for benefits section*/
+/*Style for benefits section located on the right side of the page*/
 .benefits { 
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-right: 20px; /*Adds a right margin to the benefits section*/
+    padding: 20px; /*Adds padding around the benefits section*/
+    clear: both; /* Clears both left and right floats */
+    float: right; /*Shifts the benefits section to the right side of the page*/
+    width: 20%; /*Sets the width of the benefits section to 20% of its container*/
+    height: 100%; /*Sets the height of the benefits section to 100% of its container*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Defines the font family for  text in the benefits section*/
+    background-color: #2589bd; /*Sets a background color to the benefits section*/
 }
 
 /*Style for a benefit-type*/
 .benefit-type {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px; /*Adds a bottom margin to the benefit-type section*/
+    color: #ffffff; /*Sets the font color to the benefit-type section*/
 }
 
 /*Style for the h3 element inside a benefit-type*/
-.benefit-type h3 { /*changed*/
-    margin-bottom: 10px;
-    text-align: center;
+.benefit-type h3 { 
+    margin-bottom: 10px; /*Adds a bottom margin to h3 elements inside the benefit-type section*/
+    text-align: center; /*Centers the text horizontally inside the benefit-type section*/ 
 }
 
 /*Style for the images inside a benefit-type*/
 .benefit-type img {
-    display: block;
+    display: block; 
     margin: 10px auto;
     max-width: 150px;
 }
 
 /*Style for the blue-columns section*/
 .blue-columns {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* Displays images as block-level elements, one below the other */
+    padding: 50px; /*Adds padding around the blue-columns section*/
+    height: 300px; /*Sets the height of the blue-columns section*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Defines the font family for  text in the blue-columns section*/
+    background-color: #0072bb; /*Sets the background color of the blue-columns section*/
+    color: #ffffff; /*Sets the font color of the blue-columns section*/
 }
 
 /*Style for the images inside the blue-columns section*/
-.blue-columns img { /*changed*/
-    max-height: 200px;
+.blue-columns img { 
+    max-height: 200px; /*Sets the maximum height of images in the blue-columns section*/
 }
 
 /*Style for h2 elements inside the blue-columns section*/
-.blue-columns h2 { /*changed*/
-    margin-bottom: 20px;
-    font-size: 36px;
+.blue-columns h2 {
+    margin-bottom: 20px; /*Adds a bottom margin to h2 elements in the blue-columns section*/
+    font-size: 36px; /*Sets the font size of h2 elements in the blue-columns section*/
 }
 
 /*Style for the footer of the page*/
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding: 30px; /*Adds padding around the footer*/
+    clear: both;  /* Clears both left and right floats within the footer */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Defines the font family for text in the footer*/
+    text-align: center; /*Centers the text in the footer horizontally*/
 }
 
 /*Style for h2 elements inside the footer*/
 .footer h2 {
-    font-size: 20px;
+    font-size: 20px; /*Sets the font size for h2 elements in the footer*/
 }
